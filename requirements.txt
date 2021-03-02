@@ -4,3 +4,6 @@ sqlalchemy
 pyramid_tm
 zope.sqlalchemy
 setuptools
+deform
+colander
+pyramid_chameleon

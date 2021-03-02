@@ -4,9 +4,12 @@ requires = [
     'pyramid',
     'pyramid-mako',
     'sqlalchemy',
+    'deform',
+    'colander',
     'pyramid_tm',  # allows Pyramid requests to join the active transaction as provided by the transaction package.
     'transaction',  # generic transaction implementation for Python. It is mainly used by the ZODB.
     'zope.sqlalchemy',  # unite existing packages integrating SQLAlchemy with Zope’s transaction management.
+    'pyramid_chameleon',
 ]
 
 setup(

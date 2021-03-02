@@ -5,7 +5,7 @@ from apps.todo.scripts.initializedb import initialize_db
 
 if __name__ == '__main__':
     initialize_db()
-    settings = {}
+    settings = {"reload_templates": True}
     app = main(settings)
     server = make_server('127.0.0.1', 8000, app)
     server.serve_forever()
