@@ -1,0 +1,6 @@
+pyramid~=2.0
+pyramid-mako
+sqlalchemy
+pyramid_tm
+zope.sqlalchemy
+setuptools
